@@ -1,0 +1,139 @@
+body{
+    font-size: 24px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-style: italic;
+    font-family: Roboto;
+}
+.d-flex{
+    display: flex;
+}
+
+.margin-center{
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 32px;
+}
+
+h2{
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.header{
+    background-image: url(../photo/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 958px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.header p{
+    margin-bottom: 48px;
+}
+
+.header .media{
+    justify-content: space-between;
+}
+
+.about{
+    padding-top: 64px;
+    padding-bottom: 56px;
+}
+
+.about img{
+    margin-bottom: 24px;
+}
+
+.about .profile li:not(:first-child){
+    margin-top: 8px;
+}
+
+.about hr{
+    width: 384px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #000000;
+}
+
+.about .profile_desc li:before{
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+    position: absolute;
+    margin: 2px 0 0 -38px;
+}
+.about .profile_desc li:not(:first-child){
+    margin-top: 32px;
+}
+
+.brand{
+    background-color: #000;
+    color: #fff;
+    padding-top: 64px;
+    padding-bottom: 160px;
+}
+
+.brand h2{
+    margin-bottom: 16px;
+}
+
+.brand p{
+    margin-bottom: 32px;
+}
+.brand img{
+    margin-bottom: 40px;
+}
+.brand ul{
+    margin-bottom: 68px;
+    justify-content: center;
+}
+
+.otherwork{
+    padding-top: 64px;
+    padding-bottom: 160px;
+}
+
+.otherwork ul{
+    display: flex;
+    justify-content: center;
+}
+
+.otherwork ul{
+    margin-top: 56px;
+}
+
+.otherwork ul>li p{
+    margin-top: 16px;
+}
+
+.otherwork ul>li:not(:last-child){
+    margin-right: 24px;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+footer h2{
+   margin-bottom: 16px;
+}
+
+footer p{
+    margin-bottom: 16px;
+}
